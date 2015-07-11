@@ -3,89 +3,117 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title></title>
+        <title>Backstreet Boys - The Ultimate Fan Site</title>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/custom.css">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        <script src="js/jquery.2.1.3.min.js"></script>
+        <script src="js/nav.js"></script>
     </head>
     <body>
         <!-- Backstreet Boy Logo Goes Here -->
-        <header>
-            <img src="images/bsb-logo-300x100.png" alt="Backstreet Boys Logo"/>
+        <header class="u-ct">
+            <img id="logo" src="images/bsb-logo-393x90.png" alt="Backstreet Boys Logo"/>
         </header>
         <!-- Page Navigation goes here -->
-        <nav></nav>
+        <nav id="navigation">
+            <div class="container">
+                <ul>
+                    <li><a href="aj.html">A.J.</a></li>
+                    <li><a href="howie.html">Howie</a></li>
+                    <li><a href="nick.html">Nick</a></li>
+                    <li><a href="kevin.html">Kevin</a></li>
+                    <li><a href="brian.html">Brian</a></li>
+                </ul>
+            </div>
+        </nav>
         <!-- Content unique to the page goes in "main" -->
-        <main>
+        <main id="content" class="container">
             <!-- Band Profile -->
             <section>
                 <!-- History of the BSB -->
                 <article>
-                    <h2>History</h2>
-                    <p>Started in 1993, the Backstreet Boys quickly rose to fame, from a small group of Orlando youngsters who could sing and dance, to a team of musical superstars with eight albums, two movies, eleven world tours, and countless awards between them.</p>
-                    <p>As the years passed, the group has been responsive to the changing demands of their adoring audiences.  Evolving styles have taken the BSB fromm R&B and club to hip-hop and pop.  In their more recent work, the group's maturity is becoming evident in their abandonment of synthesizers in favor of live instruments.  As do many things, however, they have recently come full-circle and are embracing again the dance-beat energy with a distinctly electropop feel.</p>
-                    <p>Over the years, the "boys" have come to be great businessmen.  After years of fighting their original manager, <a href="https://en.wikipedia.org/wiki/Lou_Pearlman" target="_blank">Lou Pearlman</a>, who took advantage of their youth and business naivete, they now work in partnership with a number of large corporations; recently, Sears, Old Navy, and Burger King have all benefitted from this group's larger than life presence in popular - and commercial - culture.</p>
-                    <!-- "Did you know"-style facts about Backstreet Boys, the group -->
-                    <figure>
-                        <img src="images/bsb-group-350x235.jpg" alt="Backstreet Boys Group Photo">
-                        <figcaption>BSB is back and stronger than ever</figcaption>
-                    </figure>
-                    <!-- "Did You Know" facts about BSB -->
-                    <aside>
-                        <h3>Did You Know?</h3>
-                        <ul>
-                            <li><strong>Kevin and Brian</strong> are actually cousins, growing up close to each other in Lexington, Kentucky.</li>
-                            <li><strong>Nick</strong> is deeply passionate about the health of our planet and was  selected as a U. N. Special Ambassador to help spread the word about environmental conservation and protection.</li>
-                            <li>Before finding fame with the Backstreet Boys, <strong>Howie</strong> was professionally trained as a dancer, and even performed with an all-boy ballet troupe.</li>
-                            <li><strong>AJ</strong> is afraid of clowns and freaks out whenever he sees one; his mom protects him when they are on tour, however, as she is their tour publicist.</li>
-                        </ul>
-                    </aside>
+                    <div class="row">
+                        <h2>History</h2>                        
+                        <p>Started in 1993, the Backstreet Boys quickly rose to fame, from a small group of Orlando youngsters who could sing and dance, to a team of musical superstars with eight albums, two movies, eleven world tours, and countless awards between them.</p>
+                        <figure id="group-photo">
+                            <img src="images/bsb-group-350x235.jpg" alt="Backstreet Boys Group Photo">
+                            <figcaption class="u-ct">BSB is back and stronger than ever</figcaption>
+                        </figure>
+                        <p>As the years passed, the group has been responsive to the changing demands of their adoring audiences.  Evolving styles have taken the BSB fromm R&B and club to hip-hop and pop.  In their more recent work, the group's maturity is becoming evident in their abandonment of synthesizers in favor of live instruments.  As do many things, however, they have recently come full-circle and are embracing again the dance-beat energy with a distinctly electropop feel.</p>
+                        <p>Over the years, the "boys" have come to be great businessmen.  After years of fighting their original manager, <a href="https://en.wikipedia.org/wiki/Lou_Pearlman" target="_blank" title="Wikipedia: Lou Pearlman">Lou Pearlman</a>, who took advantage of their youth and business naivete, they now work in partnership with a number of large corporations; recently, Sears, Old Navy, and Burger King have all benefitted from this group's larger than life presence in popular - and commercial - culture.</p>
+
+                    </div>
+                    <!-- "Did you know"-style facts about Backstreet Boys, the group -->                       
+                    <div class="row">
+                        <aside>
+                            <h3>Did You Know?</h3>
+                            <ul>
+                                <li><strong>Kevin and Brian</strong> are actually cousins, growing up close to each other in Lexington, Kentucky.</li>
+                                <li><strong>Nick</strong> is deeply passionate about the health of our planet and was  selected as a U. N. Special Ambassador to help spread the word about environmental conservation and protection.</li>
+                                <li>Before finding fame with the Backstreet Boys, <strong>Howie</strong> was professionally trained as a dancer, and even performed with an all-boy ballet troupe.</li>
+                                <li><strong>AJ</strong> is afraid of clowns and freaks out whenever he sees one; his mom protects him when they are on tour, however, as she is their tour publicist.</li>
+                            </ul>
+                        </aside>     
+                    </div>
                     <!-- List of individual band members with captions -->
-                    <aside>
+                    <aside class="row">
                         <h2>Members</h2>
-                        <figure>
+                        <figure class="columns two offset-by-one u-ct">
                             <img src="images/aj-mclean-300x300.jpg" alt="A.J. McLean">
                             <figcaption>A.J. McLean</figcaption>
                         </figure>
-                        <figure>
+                        <figure class="columns two u-ct">
                             <img src="images/howie-dorough-300x300.jpg" alt="Howie Dorough">
                             <figcaption>Howie Dorough</figcaption>
                         </figure>
-                        <figure>
+                        <figure class="columns two u-ct">
                             <img src="images/nick-carter-300x300.jpg" alt="Nick Carter">
                             <figcaption>Nick Carter</figcaption>
                         </figure>
-                        <figure>
+                        <figure class="columns two u-ct">
                             <img src="images/kevin-richardson-300x300.jpg" alt="Kevin Richardson">
                             <figcaption>Kevin Richardson</figcaption>
                         </figure>
-                        <figure>
+                        <figure class="columns two u-ct">
                             <img src="images/brian-littrell-300x300.jpg" alt="Brian Littrell">
                             <figcaption>Brian Littrell</figcaption>
                         </figure>
                     </aside>
-                    <aside>
-                        <h3>Backstreet Boys - Everybody</h3>
-                        <audio title="Backstreet Boys - Everybody" preload="auto" controls>
-                            <source src="audio/bsb-everybody.mp3" type="audio/mp3">
-                            <source src="audio/bsb-everybody.ogg" type="audio/ogg">
-                        </audio>
-                        <h3>Backstreet Boys - I Want It That Way</h3>
-                        <audio title="Backstreet Boys - I Want It That Way" preload="auto" controls>
-                            <source src="audio/bsb-i-want-it-that-way.mp3" type="audio/mp3">
-                            <source src="audio/bsb-i-want-it-that-way.ogg" type="audio/ogg">
-                        </audio>
-                        <h3>Backstreet Boys - Shape of My Heart</h3>
-                        <audio title="Backstreet Boys - Shape of My Heart" preload="auto" controls>
-                            <source src="audio/bsb-shape-of-my-heart.mp3" type="audio/mp3">
-                            <source src="audio/bsb-shape-of-my-heart.ogg" type="audio/ogg">
-                        </audio>                        
-                    </aside>
-                    <aside>
-                        <video preload="auto" controls>
-                            <source src="video/bsb-old-navy-commercial.mp4">
-                        </video>
-                    </aside>
+                    <div class="row">
+                        <aside class="column one-half">
+                            <h2>Songs</h2>
+                            <h4>Everybody</h4>
+                            <audio title="Backstreet Boys - Everybody" preload="auto" controls>
+                                <source src="audio/bsb-everybody.mp3" type="audio/mp3">
+                                <source src="audio/bsb-everybody.ogg" type="audio/ogg">
+                            </audio>
+                            <h4>I Want It That Way</h4>
+                            <audio title="Backstreet Boys - I Want It That Way" preload="auto" controls>
+                                <source src="audio/bsb-i-want-it-that-way.mp3" type="audio/mp3">
+                                <source src="audio/bsb-i-want-it-that-way.ogg" type="audio/ogg">
+                            </audio>
+                            <h4>Shape of My Heart</h4>
+                            <audio title="Backstreet Boys - Shape of My Heart" preload="auto" controls>
+                                <source src="audio/bsb-shape-of-my-heart.mp3" type="audio/mp3">
+                                <source src="audio/bsb-shape-of-my-heart.ogg" type="audio/ogg">
+                            </audio>                        
+                        </aside>
+                        <aside class="column one-half">
+                            <h2>Commercials</h2>
+                            <h4>Old Navy Commercial</h4> 
+                            <video preload="auto" controls>
+                                <source src="video/bsb-old-navy-commercial.mp4">
+                            </video>
+                        </aside>
+                    </div>
                 </article>
             </section>
         </main>
-        <footer>Backstreet's Back...alright!</footer>
+        <footer class="u-ct">
+            <h5>Backstreet's Back, alright!</h5>
+        </footer>
     </body>
 </html>
