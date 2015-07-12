@@ -29,7 +29,7 @@ audio {
 
 /* Site Styles */
 header {
-    background: #c2dcdb url('/images/bsb-cartoon-300x150.png') repeat-x;
+    background: #c2dcdb url('../images/bsb-cartoon-300x150.png') repeat-x;
     border-bottom: 2px solid #c2dcdb;
     height: 152px;
     margin: 0;
