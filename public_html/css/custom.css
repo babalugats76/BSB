@@ -69,7 +69,6 @@ header {
 }
 
 #navigation ul li a:hover {
-    /* background-color: #cf2b08; */
     background-color: #d8bfd8;
     color: #ffffff;
     cursor: pointer;
@@ -89,8 +88,7 @@ footer {
     height: 78px;
     padding-top: 20px;
     background-color: #696969;
-    color: #ffffff;
-    
+    color: #ffffff; 
 }
 
 /* Page-specific styles */
